@@ -1,4 +1,4 @@
-sogou caffe build toolset
+caffe build toolset
 ===
 
 1. protobuf(@2.5)
