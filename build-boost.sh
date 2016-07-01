@@ -9,6 +9,7 @@ DEBUG "[${BOOST_TAR}]"
 
 if [ -f ${SRC_DIR}/${BOOST_TAR} ]; then
     WARN "${SRC_DIR}/${BOOST_TAR} exist "
+    wget -r  ${BOOST_WGET_LINK} -O ${SRC_DIR}/${BOOST_TAR}  
 else
     INFO "downloading boost"
     wget ${BOOST_WGET_LINK} -O ${SRC_DIR}/${BOOST_TAR}  
