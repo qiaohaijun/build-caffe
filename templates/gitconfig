@@ -1,0 +1,5 @@
+[https]
+        proxy = http://qiaohaijun.sogou-inc.com:3128
+[http]
+        proxy = http://qiaohaijun.sogou-inc.com:3128
+
