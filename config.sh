@@ -62,8 +62,7 @@ PYTHON_TAR="Python-2.7.11.tgz"
 
 
 # boost
-
-BOOST_WGET_LINK="http://iweb.dl.sourceforge.net/project/boost/boost/1.60.0/boost_1_60_0.tar.bz2"
+BOOST_WGET_LINK="http://freefr.dl.sourceforge.net/project/boost/boost/1.60.0/boost_1_60_0.tar.bz2"
 BOOST_TAR="boost_1_60_0.tar.bz2"
 BOOST_FILE="boost_1_60_0"
 
