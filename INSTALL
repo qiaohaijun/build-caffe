@@ -1,1 +1,12 @@
 按照下面的工具来安装
+
+---
+### python
+
+推荐使用 python 分发包, anaconda
+
+### distribute
+
+推荐编译为 distribute 包
+
+make distribute -j
