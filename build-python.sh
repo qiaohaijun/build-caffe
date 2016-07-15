@@ -24,4 +24,4 @@ fi
 cd ${SRC_DIR}/; tar xvfz Python-2.7.11.tgz 
 
 ##
-cd ${SRC_DIR}/${PYTHON_FILE}; ./configure --prefix=${TARGET_DIR}; make -j ; make install
+cd ${SRC_DIR}/${PYTHON_FILE}; ./configure --prefix=${TARGET_DIR}  –enable-shared CFLAGS=-fPIC ; make -j ; make install
