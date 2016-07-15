@@ -1,0 +1,5 @@
+export PATH=/opt/local/caffe-deps/bin/:$PATH
+export LD_LIBRARY_PATH=/opt/local/caffe-deps/lib/:$LD_LIBRARY_PATH
+source /opt/rh/devtoolset-2/enable
+unset CXX
+export CXX="g++ -std=c++11"
