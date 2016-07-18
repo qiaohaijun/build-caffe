@@ -20,11 +20,11 @@ fi
 ## uncompress
 if [ -d ${SRC_DIR}/${BOOST_FILE} ] ;then
     WARN "${SRC_DIR}/${BOOST_FILE} exist, will delete it "
-#rm -rf ${SRC_DIR}/${BOOST_FILE}
+    rm -rf ${SRC_DIR}/${BOOST_FILE}
 fi
 
 INFO "untar ${BOOST_TAR}"
-#cd ${SRC_DIR}; tar xvjf ${BOOST_TAR} ;
+cd ${SRC_DIR}; tar xvjf ${BOOST_TAR} ;
 
 ##
 INFO "compile"
